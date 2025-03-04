@@ -78,4 +78,4 @@ function createPackageFiles(baseDir, manifestBaseFilename) {
     }, null, 2));
 }
 
-createPackageFiles(path.resolve(LIVERY_OUT, 'hues-livery-a339x-delta-package'), 'manifest-base.json');
+createPackageFiles(path.resolve(LIVERY_OUT, 'hues-livery-a339x-virgin-package'), 'manifest-base.json');
