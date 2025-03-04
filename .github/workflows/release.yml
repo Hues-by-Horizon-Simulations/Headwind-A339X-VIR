@@ -50,7 +50,7 @@ jobs:
           ./scripts/dev-env/run.sh ./scripts/setup.sh --clean
       - name: Build Livery Package
         run: |
-          ./scripts/dev-env/run.sh ./scripts/build-.sh --no-tty -j 4 -4k
+          ./scripts/dev-env/run.sh ./scripts/build.sh --no-tty -j 4 -4k
           docker system prune -af
       - name: Build ZIP files
         run: |
