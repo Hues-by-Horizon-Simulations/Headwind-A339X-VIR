@@ -1,6 +1,6 @@
 {
   "name": "huess-livery-packages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "edition": "development",
   "imports": {
     "#build-utils": "./build-utils.js"
