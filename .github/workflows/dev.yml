@@ -29,7 +29,7 @@ jobs:
       ZIP_NAME: hues-livery-a339x-virgin-package-4k-dev.zip
       BUILD_DIR_NAME: dev
       CLOUDFLARE_WORKER_PASSWORD: ${{ secrets.CLOUDFLARE_WORKER_PASSWORD }}
-      CDN_BUCKET_DESTINATION: addons/hues-livery-virgin-virgin-package-4k/dev
+      CDN_BUCKET_DESTINATION: addons/hues-livery-a339x-virgin-package-4k/dev
     steps:
       - name: Maximize build space
         uses: AdityaGarg8/remove-unwanted-software@v4.1
